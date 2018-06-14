@@ -1,0 +1,14 @@
+uuid: fcb9f7c0-13c3-4845-9474-c9dc6221d352
+langcode: en
+status: true
+dependencies: {  }
+id: nat_node_13_featured_media
+label: 'Nat -- node/13 featured media'
+code: "@media (min-width: 768px) {\r\n  .banner-media-full-width .views-field-field-banner-media-1 {\r\n    position: relative;\r\n    z-index: 0;\r\n  }\r\n  \r\n  .banner-media-full-width .views-field-field-banner-media-1 .view-mode-banner-media-image::before {\r\n    content: \" \";\r\n    position: absolute;\r\n    z-index: 3;\r\n    width: 100%;\r\n    height: 100%;\r\n    background-color: rgba(0, 0, 0, 0.35);\r\n  }\r\n  \r\n}"
+media: all
+nodeType: ''
+themes:
+  university_bootstrap: university_bootstrap
+preprocess: true
+visibility: true
+pages: /node/13
